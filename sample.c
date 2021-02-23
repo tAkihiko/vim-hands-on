@@ -2,6 +2,8 @@
 #include "sample.h"
 
 static int inner_func();
+static int static_var = 0;
+int global_var = 0;
 
 int main(void)
 {
