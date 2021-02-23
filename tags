@@ -8,5 +8,6 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8J2	//
 D_SAMPLE_H	.\sample.h	2;"	kind:d
+inner_func	.\sample.c	/^static int inner_func()$/;"	kind:f	file:
 main	.\sample.c	/^int main(void)$/;"	kind:f	signature:(void)
 sample	.\sample.c	/^int sample(void)$/;"	kind:f	signature:(void)

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "sample.h"
 
+static int inner_func();
+
 int main(void)
 {
 	printf("hello, world!!\n");
@@ -11,6 +13,7 @@ int main(void)
 int sample(void)
 {
 	int a = 0;
+	int ret = 0;
 
 	if(a = 0){	// <-- !!
 		for(int i = 0; i < 10; i++) {
@@ -18,5 +21,12 @@ int sample(void)
 		}
 	}
 
+	ret = inner_func();
+
 	return a;
+}
+
+static int inner_func()
+{
+	return 0;
 }
