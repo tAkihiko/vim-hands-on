@@ -2,7 +2,7 @@ scriptencoding utf-8
 
 lcd <sfile>:h
 
-set efm+=%-G%.%#
+hi Comment guifg=#009955
 
 com! -buffer TOC call <SID>TOC()
 if !exists("*s:TOC")
