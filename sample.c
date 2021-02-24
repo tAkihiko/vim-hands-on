@@ -30,5 +30,5 @@ int sample(void)
 
 static int inner_func()
 {
-	return 0;
+	return static_var;
 }
