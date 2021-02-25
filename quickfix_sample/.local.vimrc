@@ -12,7 +12,7 @@ if !exists("s:doing")
 		let efm = &efm
 		" efm 設定
 		set efm=
-		set efm+=エラー%\\tCS0525%\\t%m%\\tsrc%\\t%f%\\t%l%\\t%.%#
+		set efm+=エラー%\\tCS0525%\\t%m%\\tquickfix_sample%\\t%f%\\t%l%\\t%.%#
 		set efm+=%-G%.%#
 		" QFixList に クリップボードから展開
 		cgetex @*
